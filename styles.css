@@ -1,2 +1,49 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+body {
+    font-size: 16px;
+}
+h1 {
+    font-family: 'Poppins', sans-serif; 
+}
+h2 {
+    font-family: 'Istok Web', sans-serif;
+}
+header {
+    border-bottom: 3px dotted lightblue;
+}
+.class-list {
+    list-style-type: square;
+}
+.item {
+    border: 1px solid lightpink;
+}
+.even {
+    background-color: grey;
+}
+.odd {
+    background-color: black;
+    color: white;
+}
+#item1 {
+    font-size: 30px;
+}
+#item2 {
+    text-align: right;
+}
+ol > li {
+   padding: 5px;
+   background-color: grey;
+}
+ol>li:nth-child(odd) {
+  background-color: green;
+}
+[title~="Bitmaker"]:hover {
+    text-decoration: none;
+}
+.special:hover {
+    background-color: yellow;
+}
+.special:active {
+    background-color: red;
+}
